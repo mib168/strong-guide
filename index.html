@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抗波動投資實戰攻略</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-slate-900 font-sans antialiased min-h-screen">
+
+    <!-- Header / Nav -->
+    <nav class="p-6 fixed top-0 left-0 w-full z-50 pointer-events-none">
+        <a 
+            href="https://www.instagram.com/mib.moneylab/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="flex items-center gap-3 opacity-90 pointer-events-auto hover:opacity-100 transition-opacity cursor-pointer text-decoration-none"
+        >
+            <img 
+                src="./images/MIB.jpg" 
+                alt="MIB Logo" 
+                onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=MIB&background=334155&color=fff&size=128';"
+                class="w-8 h-8 rounded-full border border-slate-600 shadow-md object-cover"
+            >
+            <span class="font-bold tracking-wider text-slate-200 drop-shadow-md shadow-black/50" style="text-shadow: 0 2px 4px rgba(0,0,0,0.5);">MIB金融調查員</span>
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-28 pb-16 px-6 bg-slate-900 text-white relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-500 via-slate-900 to-slate-900"></div>
+        <div class="max-w-2xl mx-auto text-center relative z-10">
+            
+            <!-- Visual Metaphor -->
+            <div class="flex justify-center items-center gap-4 mb-8">
+                <div class="flex flex-col items-center gap-2">
+                    <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center shadow-lg shadow-blue-500/30">
+                        <i data-lucide="biceps-flexed" class="text-white w-10 h-10"></i>
+                    </div>
+                    <span class="text-sm font-medium text-blue-300">強健體質</span>
+                </div>
+
+                <div class="text-slate-500 font-bold text-2xl">
+                    <i data-lucide="x" class="w-8 h-8"></i>
+                </div>
+
+                <div class="flex flex-col items-center gap-2">
+                    <div class="w-20 h-20 bg-amber-500 rounded-full flex items-center justify-center shadow-lg shadow-amber-500/30">
+                        <i data-lucide="compass" class="text-white w-10 h-10"></i>
+                    </div>
+                    <span class="text-sm font-medium text-amber-300">精準導航</span>
+                </div>
+            </div>
+
+            <h1 class="text-4xl md:text-5xl font-black mb-4 leading-tight">
+                抗波動<span class="text-amber-400">投資實戰</span>攻略
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-8 font-light">
+                為什麼你抱不住？<br>
+                因為你的「肌肉」不夠強，且「地圖」沒拿好。
+            </p>
+            
+            <div class="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20 inline-block">
+                <p class="text-amber-300 font-bold text-lg">
+                    ❝ 恐懼來自於：體質太虛 ＋ 方向不明 ❞
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Part One -->
+    <section class="py-16 px-6 bg-gray-50">
+        <div class="max-w-2xl mx-auto">
+            <div class="flex items-center gap-3 mb-8">
+                <div class="bg-slate-800 text-white p-2 rounded-lg">
+                    <i data-lucide="dumbbell" class="w-6 h-6"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-800">Part 1. 財務健身房：把波動當重訓</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-10">
+                <!-- Comfort Zone -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-4 text-gray-400">
+                        <i data-lucide="armchair" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-700">舒適圈 (定存/儲蓄)</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">
+                        像是躺在沙發，很舒服但肌肉會萎縮。
+                        <br>
+                        <span class="text-red-500 text-xs font-bold mt-2 block">(風險：通膨侵蝕)</span>
+                    </p>
+                </div>
+
+                <!-- Training Zone -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-blue-600 flex flex-col items-center text-center transform md:-translate-y-2 transition-transform">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-blue-600">
+                        <i data-lucide="trending-up" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2 text-slate-900">訓練區 (投資/股市)</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        像是深蹲重訓，肌肉撕裂（下跌）是為了長出更強的複利。
+                    </p>
+                </div>
+            </div>
+
+            <!-- New Content: Constitution Check -->
+            <div class="mb-10">
+                <h3 class="text-center font-bold text-slate-800 text-xl mb-6">你是哪一種投資人？</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <!-- Weak -->
+                    <div class="bg-red-50 border border-red-100 p-5 rounded-xl">
+                        <div class="flex items-center gap-2 mb-3">
+                            <i data-lucide="frown" class="text-red-500 w-5 h-5"></i>
+                            <h4 class="font-bold text-red-700">虛胖體質</h4>
+                        </div>
+                        <ul class="space-y-2 text-sm text-slate-600">
+                            <li class="flex gap-2">❌ <span class="line-through">每天都要打開 APP 看損益</span></li>
+                            <li class="flex gap-2">❌ <span class="line-through">聽到明牌就想跟單</span></li>
+                            <li class="flex gap-2">❌ <span class="line-through">一跌 5% 就想認賠殺出</span></li>
+                        </ul>
+                    </div>
+                    <!-- Strong -->
+                    <div class="bg-green-50 border border-green-100 p-5 rounded-xl">
+                        <div class="flex items-center gap-2 mb-3">
+                            <i data-lucide="smile" class="text-green-600 w-5 h-5"></i>
+                            <h4 class="font-bold text-green-700">精實體質</h4>
+                        </div>
+                        <ul class="space-y-2 text-sm text-slate-600">
+                            <li class="flex gap-2">✅ <span>專注本業，久久看一次盤</span></li>
+                            <li class="flex gap-2">✅ <span>有自己的投資紀律與策略</span></li>
+                            <li class="flex gap-2">✅ <span>下跌視為累積部位的好機會</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coach's Tip -->
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-xl">
+                <h4 class="font-bold text-amber-800 mb-2 flex items-center gap-2">
+                    <span class="text-xl">💡</span> 教練叮嚀
+                </h4>
+                <p class="text-amber-900/80 mb-3">
+                    如果你覺得痛，不是市場有問題，是你的 <span class="font-black border-b-2 border-amber-500">「槓桿開太大」</span>（重量太重）。
+                </p>
+                <div class="bg-white/60 px-4 py-2 rounded-lg text-sm text-amber-800 font-medium inline-block">
+                    💊 解法：減輕重量，直到你晚上睡得著覺。
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Part Two -->
+    <section class="py-16 px-6 bg-white">
+        <div class="max-w-2xl mx-auto">
+            <div class="flex items-center gap-3 mb-10">
+                <div class="bg-blue-600 text-white p-2 rounded-lg">
+                    <i data-lucide="map" class="w-6 h-6"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-800">Part 2. 投資導航：別用感覺找路</h2>
+            </div>
+
+            <!-- Metaphor Cards -->
+            <div class="space-y-4 mb-12">
+                <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100">
+                    <div class="bg-orange-100 text-orange-600 p-3 rounded-full shrink-0">
+                        <i data-lucide="car-front" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 mb-1">塞車 = 市場震盪</h3>
+                        <p class="text-sm text-slate-600">這是路況，不是死路。保持耐心，車流總會疏通。</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100">
+                    <div class="bg-red-100 text-red-600 p-3 rounded-full shrink-0">
+                        <i data-lucide="ban" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 mb-1">亂轉彎 = 恐慌賣出</h3>
+                        <p class="text-sm text-slate-600">試圖抄捷徑，通常會迷路更久，甚至發生事故。</p>
+                    </div>
+                </div>
+            </div>
+
+             <!-- New Content: Roadside Assistance SOP -->
+             <div class="mb-12">
+                <h3 class="flex items-center gap-2 font-bold text-slate-800 text-lg mb-4">
+                    <i data-lucide="alert-triangle" class="text-amber-500 w-5 h-5"></i>
+                    路況應對 SOP
+                </h3>
+                <div class="space-y-3">
+                    <!-- Scenario 1 -->
+                    <div class="border border-slate-200 rounded-lg p-4">
+                        <p class="font-bold text-slate-700 mb-2">🌧️ 遇到暴雨大跌時...</p>
+                        <div class="flex flex-col sm:flex-row gap-3 text-sm">
+                            <div class="flex-1 bg-red-50 text-red-700 px-3 py-2 rounded">
+                                <span class="font-bold block text-xs mb-1">❌ 錯誤駕駛</span>
+                                棄車逃跑 (停損出場)
+                            </div>
+                            <div class="flex-1 bg-green-50 text-green-700 px-3 py-2 rounded">
+                                <span class="font-bold block text-xs mb-1">✅ 正確導航</span>
+                                開霧燈慢行 (持續扣款)
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Scenario 2 -->
+                    <div class="border border-slate-200 rounded-lg p-4">
+                        <p class="font-bold text-slate-700 mb-2">🏎️ 別人超車賺翻時...</p>
+                        <div class="flex flex-col sm:flex-row gap-3 text-sm">
+                            <div class="flex-1 bg-red-50 text-red-700 px-3 py-2 rounded">
+                                <span class="font-bold block text-xs mb-1">❌ 錯誤駕駛</span>
+                                硬踩油門跟車 (追高)
+                            </div>
+                            <div class="flex-1 bg-green-50 text-green-700 px-3 py-2 rounded">
+                                <span class="font-bold block text-xs mb-1">✅ 正確導航</span>
+                                維持定速 (專注目標)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Items -->
+            <h3 class="text-center font-bold text-slate-400 text-sm tracking-widest uppercase mb-6">導航三設定 ACTION ITEMS</h3>
+            
+            <div class="relative border-l-2 border-blue-100 pl-8 ml-4 space-y-10">
+                
+                <!-- Item 1 -->
+                <div class="relative">
+                    <div class="absolute -left-[41px] bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm shadow-sm ring-4 ring-white">1</div>
+                    <div class="flex items-center gap-3 mb-2">
+                        <i data-lucide="flag" class="text-blue-600 w-5 h-5"></i>
+                        <h4 class="font-bold text-slate-800 text-lg">設定終點 (Destination)</h4>
+                    </div>
+                    <p class="text-slate-600">你的目標是長期獲利，不是今天賺錢。眼光放遠，路就不顛簸。</p>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="relative">
+                    <div class="absolute -left-[41px] bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm shadow-sm ring-4 ring-white">2</div>
+                    <div class="flex items-center gap-3 mb-2">
+                        <i data-lucide="shield-check" class="text-blue-600 w-5 h-5"></i>
+                        <h4 class="font-bold text-slate-800 text-lg">繫安全帶 (Emergency Fund)</h4>
+                    </div>
+                    <p class="text-slate-600">準備好緊急預備金。這能保護你在意外發生時，不用被迫跳車。</p>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="relative">
+                    <div class="absolute -left-[41px] bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm shadow-sm ring-4 ring-white">3</div>
+                    <div class="flex items-center gap-3 mb-2">
+                        <i data-lucide="refresh-ccw" class="text-blue-600 w-5 h-5"></i>
+                        <h4 class="font-bold text-slate-800 text-lg">自動駕駛 (Auto-Pilot)</h4>
+                    </div>
+                    <p class="text-slate-600">設定定期定額。讓系統幫你開車，克服人性的猶豫。</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white pt-16 pb-12 px-6 rounded-t-[2.5rem] -mt-8 relative z-10">
+        <div class="max-w-xl mx-auto text-center">
+            
+            <!-- Profile Image Placeholder -->
+            <div class="w-24 h-24 bg-gradient-to-tr from-amber-400 to-amber-600 rounded-full mx-auto mb-6 p-1 shadow-2xl shadow-amber-500/20">
+                <div class="w-full h-full bg-slate-800 rounded-full flex items-center justify-center overflow-hidden">
+                    <span class="text-3xl">👨‍💼</span>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold mb-3">現在，你有裝備也有地圖了</h2>
+            <p class="text-slate-400 mb-8 leading-relaxed text-sm">
+                投資是一場馬拉松，不是百米衝刺。<br>
+                調整好呼吸（現金流），跟著導航（策略）走。
+            </p>
+
+            <!-- Main CTA Button -->
+            <p class="text-xl font-bold mb-4 text-amber-400">預約財務體態健檢</p>
+            <a 
+                href="https://lin.ee/aeSlm8E" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="transform hover:scale-105 transition-transform inline-block mb-8"
+            >
+                <img 
+                src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" 
+                alt="加入好友" 
+                height="36" 
+                style="border: 0; height: 36px;" 
+                >
+            </a>
+
+            <!-- Social Links -->
+            <div class="border-t border-slate-800 pt-8">
+                <p class="text-xs text-slate-500 mb-4 uppercase tracking-wider">Follow for more tips</p>
+                <div class="flex justify-center gap-4">
+                    <a href="https://www.instagram.com/mib.moneylab/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-full transition-colors decoration-transparent">
+                        <i data-lucide="instagram" class="text-pink-500 w-4 h-4"></i>
+                        <span class="text-sm font-medium text-white">@mib.moneylab</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
